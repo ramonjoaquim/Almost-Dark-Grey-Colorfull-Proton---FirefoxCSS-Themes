@@ -171,20 +171,18 @@ toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):no
 #page-action-buttons {
 	transition: opacity 0.15s ease;
 }
-#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #identity-box {
+/* #nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #identity-box {
 	opacity: 0;
-	/*visibility: collapse;*/
 }
 #identity-box {
-	/*transition: visibility 0.30s ease-in-out, opacity 0.30s ease-in-out;*/
 	transition: opacity 0.15s ease;
-}
-#nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #tracking-protection-icon-container {
+} */
+/* #nav-bar:not([customizing="true"]) > #nav-bar-customization-target > #urlbar-container:not(:hover) > #urlbar:not([focused]) > #urlbar-input-container > #tracking-protection-icon-container {
 	opacity: 0;
 }
 #tracking-protection-icon-container {
 	transition: opacity 0.15s ease;
-}
+} */
 
 /*================== NAV BAR ==================*/
 toolbar#nav-bar {
@@ -241,6 +239,7 @@ searchbar#searchbar {
 /*================== URL BAR ==================*/
 #urlbar {
 	text-align: left !important;
+	margin-left: 3%;
 }
 #urlbar[breakout][breakout-extend] {
 	top: 5px !important;
