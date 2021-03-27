@@ -240,7 +240,7 @@ searchbar#searchbar {
 }
 /*================== URL BAR ==================*/
 #urlbar {
-	text-align: center !important;
+	text-align: left !important;
 }
 #urlbar[breakout][breakout-extend] {
 	top: 5px !important;
